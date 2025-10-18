@@ -1,0 +1,19 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 0.3.5
+_src_path: gh:algorandfoundation/algokit-typescript-template
+author_email: your.email@example.com
+author_name: Your Name
+code_tours: true
+contract_name: hello_world
+ide_jetbrains: true
+ide_vscode: true
+preset_name: custom
+project_name: smart-contracts
+use_audit: true
+use_dispenser: true
+use_github_actions: true
+use_linter: true
+use_pre_commit: true
+use_prettier: true
+use_vitest: true
+
