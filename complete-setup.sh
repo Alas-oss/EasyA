@@ -1,0 +1,46 @@
+#!/bin/bash
+
+echo "🎉 ProofPay Frontend - Complete Setup"
+echo "====================================="
+echo ""
+echo "📦 Installing all dependencies..."
+npm install
+
+echo ""
+echo "🔍 Installing additional types..."
+npm install --save-dev @types/react @types/react-dom @types/node
+
+echo ""
+echo "✅ All dependencies installed successfully!"
+echo ""
+echo "🚀 Starting development server..."
+echo "🌐 Open your browser to: http://localhost:3000"
+echo ""
+echo "🎯 Complete Feature Set:"
+echo "   ✅ Real Algorand wallet integration (Pera + MyAlgo)"
+echo "   ✅ Live balance display and transaction recording"
+echo "   ✅ Receipt upload with drag-and-drop"
+echo "   ✅ QR code scanning with camera"
+echo "   ✅ AI verification simulation"
+echo "   ✅ Blockchain transaction recording"
+echo "   ✅ Income dashboard with analytics"
+echo "   ✅ Transaction history with search"
+echo "   ✅ User profile and settings"
+echo "   ✅ Mobile responsive design"
+echo ""
+echo "🧪 Testing Features:"
+echo "   1. Connect wallet (Pera or MyAlgo)"
+echo "   2. Upload receipts or scan QR codes"
+echo "   3. View verified transactions on dashboard"
+echo "   4. Check transaction history"
+echo "   5. Manage profile settings"
+echo ""
+echo "📱 QR Code Testing:"
+echo "   • Use the QR Code Testing Tool on Upload page"
+echo "   • Generate sample QR data"
+echo "   • Create QR codes online and scan them"
+echo ""
+echo "Press Ctrl+C to stop the server"
+echo ""
+
+npm start
